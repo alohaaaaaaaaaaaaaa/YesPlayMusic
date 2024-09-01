@@ -66,10 +66,6 @@
         {{ $t('library.userProfileMenu.logout') }}
       </div>
       <hr />
-      <div class="item" @click="toGitHub">
-        <svg-icon icon-class="github" />
-        {{ $t('nav.github') }}
-      </div>
     </ContextMenu>
   </div>
 </template>
