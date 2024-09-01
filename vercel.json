@@ -1,1 +1,8 @@
-
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://musicapi.yourikun.com/:match*"
+    }
+  ]
+}
